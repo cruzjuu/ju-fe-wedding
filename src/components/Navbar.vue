@@ -6,17 +6,16 @@
 					<div class="uk-navbar-center-left">
 						<div>
 							<ul class="uk-navbar-nav">
-								<li><a href="#profile">Profile</a></li>
-								<li><a href="#gallery">Gallery</a></li>
+								<li><a href="#home">Home</a></li>
+								<li><a href="#contato">Contato</a></li>
 							</ul>
 						</div>
 					</div>
-					<a class="uk-navbar-item uk-logo" href="#home">Fulanah <i class="uk-padding-small" uk-icon="icon: heart"></i> Fulan</a>
 					<div class="uk-navbar-center-right">
 						<div>
 							<ul class="uk-navbar-nav">
-								<li><a href="#story">Story</a></li>
-								<li><a href="#invitation">Invitation</a></li>
+								<li><a href="#story">Confirmação de Presença</a></li>
+								<li><a href="#invitation">Lista de Presentes</a></li>
 							</ul>
 						</div>
 					</div>
@@ -31,10 +30,10 @@
 			        	<a class="uk-navbar-toggle" uk-navbar-toggle-icon></a>
 				        <div class="uk-navbar-dropdown">
 				            <ul class="uk-nav uk-navbar-dropdown-nav">
-								<li><a href="#profile">Profile</a></li>
-								<li><a href="#gallery">Gallery</a></li>
-								<li><a href="#story">Story</a></li>
-								<li><a href="#invitation">Invitation</a></li>
+								<li><a href="#profile">Home</a></li>
+								<li><a href="#gallery">Contato</a></li>
+								<li><a href="#story">Confirmação de Presença</a></li>
+								<li><a href="#invitation">Lista de Presentes</a></li>
 							</ul>
 				        </div>
 				    </li>
@@ -58,7 +57,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  	$colorprimary : #ef5974;
+  	$colorprimary : #FAF8F5;
 
 	.uk-sticky-placeholder {
 		margin: 0 !important;
@@ -70,13 +69,13 @@ export default {
 		color: #ffffff !important;
 	}
 	.uk-navbar-nav > li > a:hover, .uk-navbar-nav > li > a:focus  {
-		color: #000000 !important;
+		color: #EDE7D7 !important;
 	}
 	.uk-navbar-item.uk-logo {
 		color: white !important;
 	}
 	.uk-logo:hover, .uk-logo:focus {
-		color: #000000 !important;
+		color: #EDE7D7 !important;
 	}
 	.uk-navbar-item.uk-logo:after {
 		border-top: 25px solid $colorprimary !important;
@@ -88,10 +87,10 @@ export default {
 
 	@media screen and (max-width: 1024px) {
 		.uk-navbar-dropdown-nav > li > a {
-			color: #dd183f !important;
+			color: #FAF8F5 !important;
 		}
 		.uk-navbar-dropdown-nav > li > a:hover, .uk-navbar-dropdown-nav > li > a:focus {
-			color: #000000 !important;
+			color: #EDE7D7 !important;
 		}
 		.uk-navbar-item.uk-logo:after {
 			border-top: 25px solid transparent !important;
